@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif !important ;
+}
+.text-center {
+  text-align: center !important;
+}
+.footer-area {
+  background: rgb(238, 243, 243);
+  padding: 15px 0;
+}

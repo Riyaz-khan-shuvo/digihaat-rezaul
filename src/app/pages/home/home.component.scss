@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+  background: black;
+  color: #fff;
+}
+.home-area{
+  margin-top: 25px;
+}
+.container {
+  background: rgb(238, 243, 243);
+  overflow: hidden;
+}
+.container .content {
+  width: 23.5%;
+  float: left;
+  overflow: hidden;
+  margin-right: 2%;
+}
+.container .content:nth-child(4) {
+  margin-right: 0;
+}
+.container .content h2 {
+  text-align: center;
+}
+.container .content p {
+  text-align: justify;
+  font-size: 25px;
+}
+@media (max-width: 768px) {
+  h1 {
+    color: red;
+    background: green;
+  }
+
+  .container .content {
+    width: 49%;
+  }
+
+  .container .content:nth-child(2) {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    color: blue;
+    background: black;
+  }
+
+  .container .content {
+    width: 100%;
+    margin: 0;
+  }
+}
