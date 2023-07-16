@@ -1,4 +1,115 @@
-<div>
+<nav class="navbar">
+  <div class="brand nav-left">
+    <i class="fa-solid fa-bars"></i>
+    <a href="" class="logo"
+      ><img src="../../../../assets/haatlogo.png" alt="Logo"
+    /></a>
+  </div>
+
+  <!-- navbar Middle Start-->
+  <div class="nav-middle">
+    <div class="categorys-search">
+      <select name="searchCategory" class="border-none radius-left">
+        <option>All Categories</option>
+        <option>Security Surveillance</option>
+        <option>AC &amp; Home Appliance</option>
+        <option>TV &amp; Speaker</option>
+        <option>Home &amp; Audio Entertainment</option>
+        <option>Smart Phone &amp; Tablets</option>
+        <option>Gadgets &amp; Accessories</option>
+        <option>Video Games &amp; Console</option>
+        <option>Server &amp; Storage</option>
+        <option>Software</option>
+        <option>Router &amp; Network</option>
+        <option>Office Equipment</option>
+      </select>
+    </div>
+    <div class="search-input">
+      <input
+        id="searchInput"
+        class="border-none"
+        type="text"
+        placeholder="Search for Product...."
+        name="searchTerm"
+        autocomplete="off"
+        autofocus="off"
+      />
+    </div>
+    <div>
+      <button class="border-none radius-right search-btn">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+  </div>
+  <!-- navbar middle End-->
+
+  <!-- navbar Right Start-->
+  <div class="nav-right">
+    <div class="nav-icon">
+      <ul>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-code-compare">
+              <span>
+                <small class="list-count">00</small>
+              </span>
+            </i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-heart">
+              <span>
+                <small class="list-count">00</small>
+              </span>
+            </i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping">
+              <span>
+                <small class="list-count">01</small>
+              </span>
+            </i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <ul class="hidden-icon">
+    <li>
+      <a href=""><i class="fa fa-search"></i></a>
+    </li>
+    <li>
+      <a href=""><i class="fa-solid fa-user"></i></a>
+    </li>
+    <li>
+      <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+    </li>
+  </ul>
+  <div class="btn-info-right">
+    <ul>
+      <li>
+        <a href="#"
+          ><i class="fa-solid fa-phone custom-icon"></i> 01877796011</a
+        >
+      </li>
+      <li>
+        <a href="#"
+          ><i class="fa-solid fa-location-dot custom-icon"></i> Location</a
+        >
+      </li>
+      <li>
+        <a routerLink="signup">Sign In</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- navbar Right End-->
+</nav>
+
+<!-- <div>
   <nav class="navbar">
     <div class="navbar-container container">
       <input type="checkbox" name="" id="">
@@ -7,15 +118,17 @@
         <span class="line line2"></span>
         <span class="line line3"></span>
       </div>
-      <ul class="menu-items">
-        <li><a [routerLink]="['/']">Home</a></li>
-        <li><a [routerLink]="['/about']" routerLinkActive="router-link-active">About</a></li>
-        <li><a href="javascript:void(0)">Category</a></li>
-        <li><a href="javascript:void(0)">Menu</a></li>
-        <li><a href="javascript:void(0)">Testimonial</a></li>
-        <li><a href="javascript:void(0)">Contact</a></li>
-      </ul>
+      
       <h1 class="logo">Navbar</h1>
     </div>
   </nav>
-</div>
+</div> -->
+
+<!-- <ul class="menu-items">
+  <li><a [routerLink]="['/']">Home</a></li>
+  <li><a [routerLink]="['/about']" routerLinkActive="router-link-active">About</a></li>
+  <li><a href="javascript:void(0)">Category</a></li>
+  <li><a href="javascript:void(0)">Menu</a></li>
+  <li><a href="javascript:void(0)">Testimonial</a></li>
+  <li><a href="javascript:void(0)">Contact</a></li>
+</ul> -->

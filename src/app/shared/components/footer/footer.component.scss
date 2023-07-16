@@ -1,1 +1,174 @@
+// News Letter Start
 
+.newsletter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem 2rem;
+  background: #fcd804;
+  align-items: center;
+
+  .sign-up-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    div {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      i {
+        font-size: 2rem;
+        padding-right: 1rem;
+      }
+      h2 {
+        font-size: 2rem;
+        font-weight: 300;
+      }
+    }
+    p {
+      font-size: 1.5rem;
+      span {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+    }
+  }
+  .categorys-search {
+    input {
+      width: 80%;
+      border-radius: 5rem 0 0 5rem;
+    }
+    input,
+    button {
+      padding: 1rem 2rem;
+    }
+    button {
+      border-radius: 0 5rem 5rem 0;
+      background: #333;
+      color: #fff;
+    }
+  }
+}
+
+// News Letter End
+
+// Footer Text Content Start
+
+.footer-content {
+  margin: 3rem;
+
+  .content-box {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+    h1 {
+      padding-bottom: 1rem;
+      font-weight: 500;
+    }
+    p {
+      font-weight: 300;
+      font-size: 1.6rem;
+    }
+  }
+}
+
+// Footer Text Contact Start
+.footer-contact {
+  padding: 3rem;
+  .content-area {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    align-items: center;
+
+    .box-1 {
+      a img {
+        width: 40%;
+        padding-bottom: 2rem;
+      }
+      p {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+      }
+      h2 {
+        font-size: 2rem;
+        padding-bottom: 3rem;
+      }
+      .address {
+        h3 {
+          font-size: 2rem;
+          padding-bottom: 1rem;
+        }
+        p {
+          font-size: 1.6rem;
+        }
+      }
+      .social-icon {
+        padding-bottom: 2rem;
+        a i {
+          padding-right: 1rem;
+          font-size: 2rem;
+          color: #333;
+        }
+      }
+    }
+    .box-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 3rem;
+      .box {
+        display: block;
+        h2 {
+          padding-bottom: 1rem;
+          font-size: 2rem;
+        }
+        .link-item {
+          a {
+            display: block;
+            padding-bottom: 0.7rem;
+            font-size: 1.4rem;
+            text-decoration: none;
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer-bottom {
+  background: #9e9c9c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  p {
+    font-size: 1.4rem;
+    span {
+      font-weight: bold;
+    }
+  }
+  .payment i {
+    padding-right: 2rem;
+    color: rgb(50, 53, 53);
+    font-size: 2rem;
+  }
+}
+
+// Footer Text Contact End
+
+// News Letter Media start
+
+@media screen and (max-width: 1024px) {
+  .newsletter {
+    grid-template-columns: 1fr;
+    text-align: center;
+    .sign-up-content {
+      display: block;
+      div {
+        display: block;
+      }
+    }
+  }
+}
+
+// News Letter Media start
